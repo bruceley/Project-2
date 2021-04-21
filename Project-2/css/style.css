@@ -1,0 +1,199 @@
+  *{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: rgb(75, 73, 73);
+}
+
+body{
+padding: 5%;
+}
+
+.title{
+font-size: 30px;
+}
+
+img{
+ max-width: 100%;
+}
+ul{
+ padding-left: 0;
+}
+.top{
+    margin: 17px 0;
+}
+#top{
+    text-transform: uppercase;
+}
+
+.nav li{
+    list-style: none;
+    font-weight: 600;
+    padding: 18px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+h3{
+    font-weight: 600;
+}
+
+a{
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+color: blue;
+}
+
+.portfolio-container{
+    padding-top: 12% ;
+    padding-bottom: 12%;
+
+}
+.sections{
+    padding-bottom: 25px;
+}
+
+.contact-info{
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    border-top: solid rgb(138, 137, 137) 1px;
+    margin-top: 100px;
+
+}
+
+.nav-footer{
+    display: none
+}
+
+    @media screen and (min-width: 768px){
+    .nav {
+        display: flex;
+        flex-direction: row;
+        width: 340px;
+        padding-left: 150px;
+    
+        }
+
+    .section-2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .profile-pic{
+        padding-top: 0;
+        width: 44%;
+        height: auto;
+    }
+
+    .bio{
+    width: 52%;
+    padding-right: 25px;
+    text-align: left;
+
+    }
+
+    .sections{
+        float: left;
+        width:45%;
+        margin: auto;
+
+    }
+    .sections:nth-child(even){
+    margin-right: 7%;
+    }
+
+    .text{
+    padding: 0 25px;
+    }
+
+
+    .contact{
+    contain: content;
+    padding-right: 325px;
+    padding-left: 300px;
+
+
+    }
+
+
+    .top{
+        display: none;
+    }
+
+    .nav-footer{
+        display: flex;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: rgb(75, 73, 73);
+    }
+
+    .nav-footer li{
+
+        list-style: none;
+        padding-left: 20px;
+    }
+
+
+    }
+
+
+
+    
+
+@media screen and (min-width: 1024px) {
+
+header{
+ display: flex;
+ justify-content: space-between;
+
+
+}
+
+.bio{
+font-size: 1.75em;
+
+}
+
+.nav{
+    margin: initial;
+    align-items: center;
+
+}
+
+.sections:nth-child(even){
+    margin-right: initial;
+}
+
+
+
+.sections{
+    width: 30%;
+    float: left;
+    margin-right: 0;
+    
+}
+
+ .sections.sec-1,
+ .sections.sec-2,
+ .sections.sec-4,
+ .sections.sec-5{
+
+    margin-right: 5%;
+ }
+
+
+
+
+
+
+}
